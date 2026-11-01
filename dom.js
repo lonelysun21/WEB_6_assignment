@@ -14,4 +14,15 @@ $(document).ready(function() {
     $("#removeButton").click(function() {
         $("#itemList li:last").remove();
     });
+    $("#imageButton").click(function() {
+        $("#changeImage").attr(
+            "src",
+            "https://placehold.co/300x180/e67e22/ffffff?text=Second+Image"
+        );
+    });
+    
+    $("#linkButton").click(function() {
+        $("#changeLink").attr("href", "https://www.wikipedia.org");
+        $("#changeLink").text("Visit Wikipedia");
+    });
 });
