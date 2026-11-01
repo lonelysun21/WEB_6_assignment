@@ -78,3 +78,28 @@ h2 {
     margin-top: 15px;
     border-radius: 5px;
 }
+
+#itemList {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+#itemList li {
+    padding: 5px;
+}
+
+#changeImage {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+#changeLink {
+    color: #3498db;
+    font-weight: bold;
+}
+
+#userForm {
+    margin: 15px 0;
+}
