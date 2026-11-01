@@ -36,3 +36,7 @@ This project contains jQuery tasks about selectors, effects, DOM manipulation, a
 2. Open index.html in a browser.
 3. Make sure you have an internet connection for jQuery CDN.
 4. Use the navigation bar to open different pages.
+
+## Live Website
+
+GitHub Pages: https://github.com/lonelysun21/WEB_6_assignment
