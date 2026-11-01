@@ -25,4 +25,13 @@ $(document).ready(function() {
         $("#changeLink").attr("href", "https://www.wikipedia.org");
         $("#changeLink").text("Visit Wikipedia");
     });
+    $("#nameInput").on("input", function() {
+        let name = $("#nameInput").val();
+        $("#nameOutput").text(name);
+    });
+    
+    $("#emailInput").on("input", function() {
+        let email = $("#emailInput").val();
+        $("#emailOutput").text(email);
+    });
 });
