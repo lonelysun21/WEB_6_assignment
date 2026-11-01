@@ -22,4 +22,15 @@ $(document).ready(function() {
     $("#fadeToggleButton").click(function() {
         $("#fadeImage").fadeToggle(1000);
     });
+    $("#slideUpButton").click(function() {
+        $("#slidePanel").slideUp(1000);
+    });
+    
+    $("#slideDownButton").click(function() {
+        $("#slidePanel").slideDown(1000);
+    });
+    
+    $("#slideToggleButton").click(function() {
+        $("#slidePanel").slideToggle(1000);
+    });
 });
