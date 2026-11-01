@@ -45,4 +45,23 @@ $(document).ready(function() {
             height: "60px"
         });
     });
+    $("#combinedButton").click(function() {
+        $("#combinedBox").stop(true, true).animate({
+            left: "150px",
+            top: "80px",
+            width: "110px",
+            height: "110px",
+            opacity: 0.3
+        }, 1500);
+    });
+    
+    $("#combinedReset").click(function() {
+        $("#combinedBox").stop(true, true).css({
+            left: "0px",
+            top: "0px",
+            width: "60px",
+            height: "60px",
+            opacity: 1
+        });
+    });
 });
