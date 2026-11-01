@@ -64,3 +64,17 @@ input {
 h2 {
     margin-bottom: 20px;
 }
+
+#fadeImage {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+#slidePanel {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
