@@ -103,3 +103,29 @@ h2 {
 #userForm {
     margin: 15px 0;
 }
+
+.animationArea {
+    height: 250px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#basicBox,
+#sequenceBox,
+#combinedBox {
+    width: 60px;
+    height: 60px;
+    background-color: #3498db;
+    position: relative;
+}
+
+#sequenceBox {
+    background-color: #e67e22;
+}
+
+#combinedBox {
+    background-color: #2ecc71;
+}
