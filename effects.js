@@ -10,4 +10,16 @@ $(document).ready(function() {
     $("#toggleButton").click(function() {
         $("#visibilityText").toggle();
     });
+    
+    $("#fadeInButton").click(function() {
+        $("#fadeImage").fadeIn(1000);
+    });
+    
+    $("#fadeOutButton").click(function() {
+        $("#fadeImage").fadeOut(1000);
+    });
+    
+    $("#fadeToggleButton").click(function() {
+        $("#fadeImage").fadeToggle(1000);
+    });
 });
